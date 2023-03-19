@@ -46,6 +46,6 @@ workflows:
   say-hello-workflow:
     jobs:
       - save_hello_world_output
-      - print_output_file
+      - print_output_file:
       # - print-world:
           requires: [save_hello_world_output] 
